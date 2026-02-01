@@ -13,7 +13,7 @@ print(number)
 print(random.sample(range(10, 20), 8))
 
 #generate a random amount of numbers (between 1-4) of multiples of 3 between 12-48
-print(random.sample(range(12, 48 + 3, 3), random.randint(1, 4)))
+print(random.sample(range(12, 48 + 1, 3), random.randint(1, 4)))
 
 #choose a random color between "red" "green" "blue" "orange" "white"
 print(random.choice(["red", "blue", "orange", "white"]))
