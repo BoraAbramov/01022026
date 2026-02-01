@@ -16,3 +16,5 @@ print(random.uniform(5, 10))
 print(random.choice([1, "yes", "no", 0]))
 
 print(random.randrange(3, 30 + 3, 3))
+
+print(random.sample(range(1, 10), 3))
