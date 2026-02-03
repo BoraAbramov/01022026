@@ -9,8 +9,6 @@ while _pscore < 10 or _PCscore < 10:
     card = random.choice([2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K', 'A'])
     suit1 = random.choice(["❤️", "♦️", "♣️", "♠️"])
     card1 = random.choice([2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K', 'A'])
-    if _pscore == 10 or _PCscore == 10:
-        break
     print("player card:", card, suit, end="\n"); print("PC card:", card1, suit1)
     if card == "J":
         card = 11
