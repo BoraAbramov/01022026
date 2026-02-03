@@ -9,7 +9,7 @@ while True:
     card = random.choice([2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K', 'A'])
     suit1 = random.choice(["❤️", "♦️", "♣️", "♠️"])
     card1 = random.choice([2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K', 'A'])
-    if _pscore == 2 or _PCscore == 2:
+    if _pscore == 10 or _PCscore == 10:
         break
     print("player card:", card, suit, end="\n"); print("PC card:", card1, suit1)
     if card == "J":
@@ -35,10 +35,10 @@ while True:
         if card > card1:
             print("Player wins the round (+1 point)")
             _pscore += 1
-            print("score:", end="\n"); print("player score -", _pscore, end="\n"); print("PC score -", _PCscore)
+            print("score:", end="\n"); print("player score -", _pscore, end="\n"); print("PC score -", _PCscore, end="\n"); print("------------------------------------")
             break
         else:
             print("PC wins the round (+1 point)")
             _PCscore += 1
-            print("score:", end="\n"); print("player score -", _pscore, end="\n"); print("PC score -", _PCscore)
+            print("score:", end="\n"); print("player score -", _pscore, end="\n"); print("PC score -", _PCscore, end="\n"); print("------------------------------------")
             break
