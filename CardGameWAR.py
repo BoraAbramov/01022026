@@ -4,7 +4,7 @@ import random
 _pscore = 0
 _PCscore = 0
 
-while True:
+while _pscore < 10 or _PCscore < 10:
     suit = random.choice(["❤️", "♦️", "♣️", "♠️"])
     card = random.choice([2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K', 'A'])
     suit1 = random.choice(["❤️", "♦️", "♣️", "♠️"])
