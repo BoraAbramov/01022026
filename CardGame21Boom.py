@@ -49,3 +49,5 @@ while True:
         _p2 += card
         print("Total: ", _p2, end="\n\n")
         continue
+if _p1 > _p2:
+    print("Player 1 starts with total: ", _p1)
